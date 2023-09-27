@@ -68,28 +68,54 @@
 }
 
 body {
-    font-family: rubikregular, Roboto, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 nav {
-    background-color: steelblue;
+    background-color: rgb(50, 95, 133);
     padding: 10px;
 }
 nav a {
+    font-family: rubikregular;
     color: white;
     display: block;
     padding: 20px;
 }
 h1 {
-    font-family: playfair_displayregular, Georgia, cursive;
-    color: steelblue;
+    font-family: cursive, sans-serif;
+    color: rgb(50, 95, 133);
 }
-img {
+main img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid rgb(50, 95, 133);
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 10px gray;
 }
 p {
-    padding: 10px;
+    padding: 0;
+}
+main {
+    max-width: 840px;
+}
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    padding: 1rem;
+    background-color: #b5bb70;
+    color: rgb(36, 36, 36);
+    text-align: center;
+}
+aside h2 {
+    font-family: playfair_displayregular, Helvetica, sans-serif;
+}
+aside img {
+    width: 200px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    height: auto;
+}
+footer {
+    margin-top: 1em;
+    border-top: 1px solid black;
+    text-align: center;
 }
