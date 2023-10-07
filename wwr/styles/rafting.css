@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Open+Sans&display=swap');
+
+:root {
+    --primary-color: #4A6FA5;
+    --secondary-color: #0A1128;
+    --accent1-color: #AD6A6C;
+    --accent2-color: #FFCF99;
+
+    --heading-font: Gabarito, serif;
+    --paragraph-font: 'Open Sans', serif;
+
+    --nav-background-color: #FFFFFF;
+    --nav-link-color: #678d51;
+    --nav-hover-link-color: #cdf7ff;
+    --nav-hover-background-color: #236d61;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header, main, footer {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 5px;
+}
+.hero {
+    position: relative;
+    margin-top: 1rem;
+}
+.hero h1 {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: #FFFFFF;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.hero article {
+    position: absolute;
+    bottom: 0px;
+    margin: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    background-color: rgb(0, 66, 121);
+    color: #FFFFFF;
+    opacity: .9;
+}
+.hero article img {
+    width: 150px;
+    height: auto;
+    float: right;
+}
+body {
+    padding: 10px;
+}
+h2 {
+    padding: 10px;
+}
+.sociallinks a {
+    text-decoration: none;
+}
+.sociallinks img {
+    width: 50px;
+    height: auto;
+}
