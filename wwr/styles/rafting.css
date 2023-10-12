@@ -97,6 +97,7 @@ h2 {
 .history {
     display: flex;
     align-items: center;
+    border-top: 1px solid black;
 }
 .history img {
     display: block;
@@ -110,6 +111,7 @@ h2 {
 .adventure {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    border-top: 1px solid black;
 }
 .adventure img {
     display: block;
