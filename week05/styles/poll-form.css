@@ -15,7 +15,7 @@ body {
 }
 header {
     margin: 0 auto;
-    width: 650px;
+    width: 600px;
 }
 h1 {
     margin: 1rem;
@@ -24,7 +24,7 @@ h1 {
     text-align: center;
 }
 form {
-    width: 650px;
+    width: 550px;
     margin: 0 auto;
     padding: 1rem;
     border: 1px solid black;
@@ -52,7 +52,6 @@ input, select, textarea {
     font-size: 1.1rem;
 }
 label {
-    text-align: right;
     padding-right: 1rem;
 }
 input[type="checkbox"] {
@@ -74,7 +73,7 @@ button:hover {
 }
 footer {
     margin: 1rem auto 0;
-    width: 650px;
+    width: 550px;
     padding: 1rem;
     text-align: center;
     font-size: 0.8rem;
@@ -86,10 +85,12 @@ footer {
     align-items: center;
 }
 .column1 {
+    text-align: right;
     grid-template-columns: 3fr 1fr;
     margin: 0.5rem 0;
 }
 .column2 {
+    text-align: left;
     grid-template-columns: 1fr 2fr;
     margin: 0.5rem 0;
 }
