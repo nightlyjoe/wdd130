@@ -88,7 +88,7 @@ nav {
     align-items: center;
 }
 nav a {
-    font-family: rubikregular;
+    font-family: rubikregular, sans-serif;
     color: white;
     display: block;
     padding: 0.5rem;
