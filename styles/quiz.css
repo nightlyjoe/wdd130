@@ -15,7 +15,7 @@ body {
 }
 header {
     margin: 0 auto;
-    width: 650px;
+    width: 550px;
 }
 h1 {
     margin: 1rem;
@@ -35,14 +35,8 @@ form {
 fieldset {
     display: grid;
     grid-gap: .5rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(0, 0, 0, 0.5);
     padding: 1rem;
-}
-legend {
-    padding: 0.5rem;
-    color: navy;
-    font-size: 1.3rem;
 }
 label, input, button, select, textarea {
     font-family: Arial, Helvetica, sans-serif;
@@ -50,6 +44,7 @@ label, input, button, select, textarea {
 input, select, textarea {
     padding: 0.5rem;
     font-size: 1.1rem;
+    margin-bottom: 1rem;
 }
 label {
     padding-right: 1rem;
