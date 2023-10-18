@@ -90,6 +90,10 @@ nav {
 body {
     padding: 10px;
 }
+h1 {
+    margin: 10px;
+    text-align: center;
+}
 h2 {
     margin: 10px;
     text-align: center;
@@ -121,6 +125,81 @@ h2 {
 }
 .adventure figcaption {
     text-align: center;
+}
+.contact-info {
+    border-top: 1px solid black;
+    margin-top: 10px;
+    text-align: center;
+    font-size: larger;
+}
+form {
+    width: 550px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+form p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    padding: 1rem;
+}
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3rem;
+    text-align: center;
+}
+label, input, button, textarea {
+    font-family: Arial, Helvetica, sans-serif;
+}
+input, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+label {
+    padding-right: 1rem;
+    padding-bottom: 5px;
+}
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+button:hover {
+    background-color: rgb(0, 5, 56);
+}
+.form-item {
+    display: grid;
+    align-items: center;
+}
+.column1 {
+    text-align: left;
+    grid-template-columns: 1fr;
+    margin: 0.5rem 0;
+}
+.column2 {
+    text-align: left;
+    grid-template-columns: 1fr 2fr;
+    margin: 0.5rem 0;
 }
 footer {
     border-top: 1px solid black;
