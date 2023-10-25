@@ -51,25 +51,25 @@ nav {
 	color: rgb(0, 76, 218);
 	text-decoration: underline;
 }
-.hero {
+.about-hero {
     position: relative;
     margin-top: 1rem;
     display: flex;
     justify-content: center;
     flex-shrink: 0;
 }
-.hero h1 {
+.about-hero h1 {
     position: absolute;
     top: 25px;
     left: 300px;
     color: #ffffff;
 }
-.hero img {
+.about-hero img {
     display: block;
     width: 100%;
     height: auto;
 }
-.hero article {
+.about-hero article {
     position: absolute;
     display: flex;
     flex-direction: row-reverse;
@@ -82,10 +82,53 @@ nav {
     color: #FFFFFF;
     opacity: .9;
 }
-.hero article img {
+.about-hero article img {
     width: 120px;
     height: auto;
     margin: 10px;
+}
+.home-hero {
+    position: relative;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.home-hero h1 {
+    position: absolute;
+    top: 45px;
+    left: 120px;
+    color: #ffffff;
+}
+.home-hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+.homepage-section-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-top: 1px solid black;
+    margin-bottom: 1rem;
+}
+.homepage-section-2 {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    border-top: 1px solid black;
+}
+.homepage-description-1 {
+    display: block;
+}
+.homepage-section-2 p {
+    display: block;
+    padding: 1rem;
+}
+.homepage-section-2 img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
 }
 body {
     padding: 10px;
@@ -132,7 +175,45 @@ h2 {
     text-align: center;
     font-size: larger;
 }
-form {
+.newsletter-form form {
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+.newsletter-form form p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+.newsletter-form fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    padding: 1rem;
+}
+.newsletter-form legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.newsletter-form label, input, button {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.newsletter-form input {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+.newsletter-form label {
+    padding-right: 1rem;
+    padding-bottom: 5px;
+}
+.contact-form form {
     width: 550px;
     margin: 0 auto;
     margin-bottom: 10px;
@@ -142,42 +223,42 @@ form {
     background-color: #eee;
     display: grid;
 }
-form p {
+.contact-form form p {
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 10px;
 }
-fieldset {
+.contact-form fieldset {
     display: grid;
     grid-gap: .5rem;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.4);
     padding: 1rem;
 }
-legend {
+.contact-form legend {
     padding: 0.5rem;
     color: navy;
     font-size: 1.3rem;
     text-align: center;
 }
-label, input, button, textarea {
+.contact-form label, input, button, textarea {
     font-family: Arial, Helvetica, sans-serif;
 }
-input, textarea {
+.contact-form input, textarea {
     padding: 0.5rem;
     font-size: 1.1rem;
 }
-label {
+.contact-form label {
     padding-right: 1rem;
     padding-bottom: 5px;
 }
-input[type="checkbox"] {
+.contact-form input[type="checkbox"] {
     width: 22px;
     height: 22px;
     vertical-align: bottom;
 }
 button {
     margin: 1rem;
-    background-color: navy;
+    background-color: #0A1128;
     color: white;
     border: none;
     border-radius: .5rem;
@@ -185,9 +266,9 @@ button {
     font-size: 1.2rem;
 }
 button:hover {
-    background-color: rgb(0, 5, 56);
+    background-color: rgb(9, 15, 71);
 }
-.form-item {
+.contact-form-item {
     display: grid;
     align-items: center;
 }
@@ -200,6 +281,59 @@ button:hover {
     text-align: left;
     grid-template-columns: 1fr 2fr;
     margin: 0.5rem 0;
+}
+.trips-description {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-bottom: 1px solid black;
+}
+.trips-description-block-1 {
+    display: block;
+}
+.trips-description-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    padding-left: 4.5rem;
+}
+.trips-button {
+    display: flex;
+    justify-content: center;
+}
+.trips-button a {
+    display: block;
+    text-decoration: none;
+    margin: 1rem;
+    background-color: #0A1128;
+    color: white;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.0rem;
+}
+.trips-button a:hover {
+    background-color: rgb(9, 15, 71);
+}
+.trips-options {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.trips-options h3 {
+    text-align: center;
+    padding-top: 1rem;
+}
+.trips-options img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-top: 1rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+.trips-options figcaption {
+    text-align: center;
+    padding-top: 1rem;
 }
 footer {
     border-top: 1px solid black;
